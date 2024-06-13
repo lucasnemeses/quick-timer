@@ -1,3 +1,12 @@
+import { Button } from "./components/Button";
+
 export function App() {
-  return <h1>Quick Timer</h1>
+  return (
+    <>
+      <Button variant="secondary" />
+      <Button />
+      <Button />
+      <Button />
+    </>
+  );
 }
