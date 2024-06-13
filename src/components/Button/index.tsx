@@ -1,12 +1,10 @@
-import { ComponentProps } from "react";
-import { ButtonContainer, ButtonVariant } from "./Button.styles";
+import { ComponentProps } from 'react'
+import { ButtonContainer, ButtonVariant } from './Button.styles'
 
 interface ButtonProps extends ComponentProps<'button'> {
-  variant?: ButtonVariant;
+  variant?: ButtonVariant
 }
 
 export function Button({ variant = 'primary', children }: ButtonProps) {
-  return (
-    <ButtonContainer variant={variant}>{children}</ButtonContainer>
-  );
+  return <ButtonContainer variant={variant}>{children}</ButtonContainer>
 }
