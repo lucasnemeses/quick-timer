@@ -18,4 +18,10 @@ export const defaultTheme = {
   'red-700': '#7A1921',
 
   'yellow-500': '#FBA94C',
+
+  'text-xs': '0.75rem', // 12px
+  'text-sm': '0.875rem', // 14px
+  'text-md': '1rem', // 16px
+  'text-lg': '1.125rem', // 18px
+  'text-xl': '1.5rem', // 24px
 }
